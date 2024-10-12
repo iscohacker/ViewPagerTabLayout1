@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/viewBackround"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/itp1"
+    android:orientation="vertical">
+
+
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="300dp"
+        android:gravity="center"
+        android:text="Xush kelibsiz"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/tv_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:gravity="center"
+        android:text="Kim ko‘rubdur, ey ko‘ngul, ahli jahondin yaxshilig‘,
+Kimki, ondin yaxshi yo‘q, ko‘z tutma ondin yaxshilig‘"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+</LinearLayout>
